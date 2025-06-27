@@ -37,9 +37,7 @@ public function main() returns error? {
                 content: "Context"
             }
         ],
-        mergeVars: [
-            {}
-        ]
+        mergeVars: [{}]
     };
 
     mailchimp:InlineResponse20066 rendered = check mailchimp->/templates/render.post(renderPayload);

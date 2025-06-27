@@ -95,10 +95,6 @@ dependencies = [
 	{org = "ballerina", name = "time"},
 	{org = "ballerina", name = "url"}
 ]
-modules = [
-	{org = "ballerina", packageName = "http", moduleName = "http"},
-	{org = "ballerina", packageName = "http", moduleName = "http.httpscerr"}
-]
 
 [[package]]
 org = "ballerina"
@@ -216,9 +212,6 @@ dependencies = [
 	{org = "ballerina", name = "lang.value"},
 	{org = "ballerina", name = "observe"}
 ]
-modules = [
-	{org = "ballerina", packageName = "log", moduleName = "log"}
-]
 
 [[package]]
 org = "ballerina"
@@ -327,17 +320,15 @@ modules = [
 ]
 
 [[package]]
-org = "senura"
+org = "wo2"
 name = "webhook_lifecycle"
 version = "0.1.0"
 dependencies = [
-	{org = "ballerina", name = "http"},
 	{org = "ballerina", name = "io"},
-	{org = "ballerina", name = "log"},
 	{org = "ballerinai", name = "observe"},
 	{org = "ballerinax", name = "mailchimp.transactional"}
 ]
 modules = [
-	{org = "senura", packageName = "webhook_lifecycle", moduleName = "webhook_lifecycle"}
+	{org = "wo2", packageName = "webhook_lifecycle", moduleName = "webhook_lifecycle"}
 ]
 
