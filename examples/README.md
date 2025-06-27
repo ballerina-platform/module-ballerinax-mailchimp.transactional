@@ -3,8 +3,8 @@
 The `ballerinax/mailchimp.transactional` connector provides practical examples illustrating usage in various scenarios.
 
 [//]: # (TODO: Add examples)
-1. Send Order Confirmation
-2. List Denylist Emails
+1. Transactional Template Flow
+2. Webhook Lifecyle
 
 ## Prerequisites
 
