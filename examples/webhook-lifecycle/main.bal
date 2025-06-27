@@ -2,15 +2,15 @@ import ballerina/io;
 import ballerinax/mailchimp.'transactional as mailchimp;
 
 configurable string key = ?;
+configurable string webhookURL = ?;
 const string serviceUrl = "https://mandrillapp.com/api/1.0";
 
 final mailchimp:Client mailchimp = check new ({}, serviceUrl);
 
 public function main() returns error? {
-    string testWebhookURL = "https://webhook.site/d1608d2a-a6e1-48f9-a7a7-16118030bad3";
     mailchimp:WebhooksAddBody addPayload = {
         key,
-        url: testWebhookURL,
+        url: webhookURL,
         description: "Test webhook"
     };
 
@@ -27,7 +27,7 @@ public function main() returns error? {
     mailchimp:WebhooksUpdateBody updatePayload = {
         key,
         id: <decimal>addResult.id,
-        url: testWebhookURL
+        url: webhookURL
     };
     mailchimp:InlineResponse20077 updateResult = check mailchimp->/webhooks/update.post(updatePayload);
     io:println("Updated webhook :", updateResult);

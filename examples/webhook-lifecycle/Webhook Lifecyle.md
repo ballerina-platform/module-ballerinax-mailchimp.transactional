@@ -36,6 +36,7 @@ Create a `Config.toml` file in the root directory of the example with the follow
 
 ```toml
 key = "<Your Mandrill API key>"
+webhookURL="Your Webhook URL"
 ```
 
 ## Run the example
