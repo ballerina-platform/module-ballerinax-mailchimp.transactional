@@ -37,9 +37,6 @@ version = "1.7.0"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"}
 ]
-modules = [
-	{org = "ballerina", packageName = "constraint", moduleName = "constraint"}
-]
 
 [[package]]
 org = "ballerina"
@@ -57,9 +54,6 @@ version = "1.1.0"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"},
 	{org = "ballerina", name = "lang.object"}
-]
-modules = [
-	{org = "ballerina", packageName = "data.jsondata", moduleName = "data.jsondata"}
 ]
 
 [[package]]
@@ -101,10 +95,6 @@ dependencies = [
 	{org = "ballerina", name = "time"},
 	{org = "ballerina", name = "url"}
 ]
-modules = [
-	{org = "ballerina", packageName = "http", moduleName = "http"},
-	{org = "ballerina", packageName = "http", moduleName = "http.httpscerr"}
-]
 
 [[package]]
 org = "ballerina"
@@ -113,6 +103,9 @@ version = "1.8.0"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"},
 	{org = "ballerina", name = "lang.value"}
+]
+modules = [
+	{org = "ballerina", packageName = "io", moduleName = "io"}
 ]
 
 [[package]]
@@ -157,15 +150,6 @@ dependencies = [
 org = "ballerina"
 name = "lang.decimal"
 version = "0.0.0"
-dependencies = [
-	{org = "ballerina", name = "jballerina.java"}
-]
-
-[[package]]
-org = "ballerina"
-name = "lang.error"
-version = "0.0.0"
-scope = "testOnly"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"}
 ]
@@ -282,20 +266,6 @@ dependencies = [
 
 [[package]]
 org = "ballerina"
-name = "test"
-version = "0.0.0"
-scope = "testOnly"
-dependencies = [
-	{org = "ballerina", name = "jballerina.java"},
-	{org = "ballerina", name = "lang.array"},
-	{org = "ballerina", name = "lang.error"}
-]
-modules = [
-	{org = "ballerina", packageName = "test", moduleName = "test"}
-]
-
-[[package]]
-org = "ballerina"
 name = "time"
 version = "2.7.0"
 dependencies = [
@@ -308,9 +278,6 @@ name = "url"
 version = "2.6.0"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"}
-]
-modules = [
-	{org = "ballerina", packageName = "url", moduleName = "url"}
 ]
 
 [[package]]
@@ -344,11 +311,24 @@ dependencies = [
 	{org = "ballerina", name = "constraint"},
 	{org = "ballerina", name = "data.jsondata"},
 	{org = "ballerina", name = "http"},
-	{org = "ballerina", name = "test"},
+	{org = "ballerina", name = "log"},
 	{org = "ballerina", name = "url"},
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
 	{org = "ballerinax", packageName = "mailchimp.transactional", moduleName = "mailchimp.transactional"}
+]
+
+[[package]]
+org = "wso2"
+name = "transactional_template_flow"
+version = "0.1.0"
+dependencies = [
+	{org = "ballerina", name = "io"},
+	{org = "ballerinai", name = "observe"},
+	{org = "ballerinax", name = "mailchimp.transactional"}
+]
+modules = [
+	{org = "wso2", packageName = "transactional_template_flow", moduleName = "transactional_template_flow"}
 ]
 
