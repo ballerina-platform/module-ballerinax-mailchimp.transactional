@@ -17,7 +17,7 @@ This is useful for scenarios where webhooks are used to receive notifications fr
 
 You need a valid **Mailchimp Transactional (Mandrill) API key**.
 
-Refer to the [Mailchimp Transactional API Setup Guide](../../README.md#setup-guide) to obtain your API key.
+Refer to the [Mailchimp Transactional API Setup Guide](ttps://central.ballerina.io/ballerinax/mailchimp/transactional/latest#setup-guide) to obtain your API key.
 
 ### 2. Webhook Receiver (Optional for Testing)
 

@@ -18,7 +18,7 @@ This workflow is useful in scenarios where dynamic, transactional email template
 
 To use this example, you need a valid **Mailchimp Transactional (Mandrill) API key**.
 
-Follow the steps in the [Mailchimp Transactional API Setup Guide](../../README.md#setup-guide) to obtain the key.
+Follow the steps in the [Mailchimp Transactional API Setup Guide](https://central.ballerina.io/ballerinax/mailchimp/transactional/latest#setup-guide) to obtain the key.
 
 ### 2. Configuration
 
