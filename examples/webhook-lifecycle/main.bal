@@ -20,7 +20,7 @@ import ballerinax/mailchimp.'transactional as mailchimp;
 configurable string key = ?;
 configurable string webhookURL = ?;
 
-final mailchimp:Client mailchimp = check new ({});
+final mailchimp:Client mailchimp = check new;
 
 public function main() returns error? {
     mailchimp:WebhooksAddBody addPayload = {

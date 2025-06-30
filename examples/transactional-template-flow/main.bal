@@ -19,7 +19,7 @@ import ballerinax/mailchimp.'transactional as mailchimp;
 
 configurable string key = ?;
 
-final mailchimp:Client mailchimp = check new ({});
+final mailchimp:Client mailchimp = check new;
 
 public function main() returns error? {
     string templateName = "signup--template";
