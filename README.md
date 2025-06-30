@@ -86,7 +86,7 @@ Here’s how you can send a simple transactional email using the connector:
 ```ballerina
 public function main() returns error? {
     mailchimp:MessagesSendBody payload = {
-        'key: key,
+        key,
         message: {
             fromEmail: "noreply@yourdomain.com",
             to: [{ email: "customer@example.com"}],

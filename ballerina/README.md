@@ -44,7 +44,7 @@ To use the Mailchimp Transactional Email connector, you need to have a Mailchimp
 4. Copy the generated API key. You will need this to authenticate your connector.
 
     ![Create Mandrill API key](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/validate-api-key-info.png)
-    
+
 ## Quickstart
 
 To use the `Mailchimp Transactional` connector in your Ballerina application, update the `.bal` file as follows:
@@ -80,7 +80,7 @@ Here’s how you can send a simple transactional email using the connector:
 ```ballerina
 public function main() returns error? {
     mailchimp:MessagesSendBody payload = {
-        'key: key,
+        key,
         message: {
             fromEmail: "noreply@yourdomain.com",
             to: [{ email: "customer@example.com"}],
