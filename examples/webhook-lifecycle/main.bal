@@ -19,9 +19,8 @@ import ballerinax/mailchimp.'transactional as mailchimp;
 
 configurable string key = ?;
 configurable string webhookURL = ?;
-const string serviceUrl = "https://mandrillapp.com/api/1.0";
 
-final mailchimp:Client mailchimp = check new ({}, serviceUrl);
+final mailchimp:Client mailchimp = check new ({});
 
 public function main() returns error? {
     mailchimp:WebhooksAddBody addPayload = {
