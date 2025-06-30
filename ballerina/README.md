@@ -111,8 +111,7 @@ bal run
 
 ## Examples
 
-The `MailChimp Transactional Emails` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/ballerina-platform/module-ballerinax-mailchimp/tree/main/examples/), covering the following use cases:
+The `MailChimp Transactional Emails` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/), covering the following use cases:
 
-1. [Transactional Template Flow](https://github.com/ballerina-platform/module-ballerinax-mailchimp/tree/main/examples/transactional-template-flow): Shows how to create, publish, render, list, and delete templates.
-2. [Webhook Lifecyle](https://github.com/ballerina-platform/module-ballerinax-mailchimp/tree/main/examples/webhook-lifecycle): Demonstrates creating, retrieving, updating, and deleting webhooks.
-
+1. [Transactional Template Flow](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/transactional-template-flow): Shows how to create, publish, render, list, and delete templates.
+2. [Webhook Lifecyle](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/webhook-lifecycle): Demonstrates creating, retrieving, updating, and deleting webhooks.

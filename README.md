@@ -117,10 +117,10 @@ bal run
 
 ## Examples
 
-The `MailChimp Transactional Emails` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/ballerina-platform/module-ballerinax-mailchimp/tree/main/examples/), covering the following use cases:
+The `MailChimp Transactional Emails` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/), covering the following use cases:
 
-1. [Transactional Template Flow](https://github.com/ballerina-platform/module-ballerinax-mailchimp/tree/main/examples/transactional-template-flow): Shows how to create, publish, render, list, and delete templates.
-2. [Webhook Lifecyle](https://github.com/ballerina-platform/module-ballerinax-mailchimp/tree/main/examples/webhook-lifecycle): Demonstrates creating, retrieving, updating, and deleting webhooks.
+1. [Transactional Template Flow](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/transactional-template-flow): Shows how to create, publish, render, list, and delete templates.
+2. [Webhook Lifecyle](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/webhook-lifecycle): Demonstrates creating, retrieving, updating, and deleting webhooks.
 
 ## Build from the source
 
@@ -210,7 +210,7 @@ All the contributors are encouraged to read the [Ballerina Code of Conduct](http
 
 ## Useful links
 
-* For more information go to the [`mailchimp.transactional` package](https://central.ballerina.io/ballerinax/mailchimp.transactional/latest).
+* For more information go to the [`mailchimp.transactional` package](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/).
 * For example demonstrations of the usage, go to [Ballerina By Examples](https://ballerina.io/learn/by-example/).
 * Chat live with us via our [Discord server](https://discord.gg/ballerinalang).
 * Post all technical questions on Stack Overflow with the [#ballerina](https://stackoverflow.com/questions/tagged/ballerina) tag.

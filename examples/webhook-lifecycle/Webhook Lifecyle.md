@@ -1,4 +1,4 @@
-# Webhook Lifecycle 
+# Webhook Lifecycle
 
 This example demonstrates how to manage the full lifecycle of a webhook using the Mailchimp Transactional API. It covers:
 
@@ -17,7 +17,7 @@ This is useful for scenarios where webhooks are used to receive notifications fr
 
 You need a valid **Mailchimp Transactional (Mandrill) API key**.
 
-Refer to the [Mailchimp Transactional API Setup Guide](ttps://central.ballerina.io/ballerinax/mailchimp/transactional/latest#setup-guide) to obtain your API key.
+Follow the steps in the [Mailchimp Transactional API Setup Guide](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/README.md#setup-guide) to obtain the key.
 
 ### 2. Webhook Receiver (Optional for Testing)
 
@@ -47,7 +47,7 @@ Execute the following command to run the example:
 bal run
 ```
 
-##  Example Output
+## Example Output
 
 - Adds a Webhook using the provided URL.
 - Retrieves the Webhook Info using its ID.
@@ -57,8 +57,6 @@ bal run
 All steps are printed to the console as they complete.
 
 ## Notes
+
 - Replace the webhook URL with your own generated URL when testing live.
 - Ensure your API key has the required permissions.
-
-
-

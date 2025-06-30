@@ -18,7 +18,7 @@ This workflow is useful in scenarios where dynamic, transactional email template
 
 To use this example, you need a valid **Mailchimp Transactional (Mandrill) API key**.
 
-Follow the steps in the [Mailchimp Transactional API Setup Guide](https://central.ballerina.io/ballerinax/mailchimp/transactional/latest#setup-guide) to obtain the key.
+Follow the steps in the [Mailchimp Transactional API Setup Guide](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/README.md#setup-guide) to obtain the key.
 
 ### 2. Configuration
 
@@ -36,7 +36,7 @@ Execute the following command to run the example:
 bal run
 ```
 
-##  Example Output
+## Example Output
 
 The program will:
 
@@ -49,4 +49,3 @@ The program will:
 
 - The example uses `templateName = "signup-template"` as the template name. You can modify it based on your use case.
 - Ensure your API key has sufficient permissions for all operations.
-
