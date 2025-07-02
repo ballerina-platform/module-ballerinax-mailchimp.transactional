@@ -8,36 +8,36 @@ The `ballerinax/mailchimp.transactional` package provides APIs to connect and in
 
 To use the Mailchimp Transactional Email connector, you need to have a Mailchimp account and access to a Mandrill API key. Follow the steps below to set up your account and generate the required API key.
 
-### Step 1: Create a Mailchimp Account
+### Step 1: Create a Mailchimp account
 
 1. Go to the [Mailchimp Sign Up Page](https://login.mailchimp.com/signup/) and create a Mailchimp account.
 
-2. Once signed in, click on your profile icon in the bottom-left corner to access the account menu.
+2. Once signed in, click on your profile icon in the top-right corner to access the account menu.
 
     ![Mailchimp Dashboard](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/mailchimp-dashboard.png)
     ![Mailchimp Profile Menu](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/mailchimp-menu.png)
 
-### Step 2: Enable Transactional Email
+### Step 2: Enable transactional email
 
 1. In the menu, go to **Billing**.
 
     ![Mailchimp Billing Section](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/mailchimp-billing.png)
 
-2. Under **Monthly plans or credits**, select the **Transactional Email** plan (you can start with the demo plan).
+2. Under **Monthly plans or credits**, select the **Transactional Email Plan** (you can start with the demo plan).
 
     ![Transactional Email Plan](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/mailchimp-transactional-setup.png)
 
-### Step 3: Generate a Mandrill API Key
+### Step 3: Generate a Mandrill API key
 
 1. After enabling the transactional email feature, navigate to the **Extras** section and click on **API keys**.
 
     ![Mailchimp Extra Section](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/mailchimp-api-key-menu.png)
 
-2. Choose **Create Mandrill API Key** (not the regular API key). You will be redirected to the [MandrillApp Dashboard](https://mandrillapp.com/).
+2. Choose **Create A Mandrill API Key** (not the regular API key). You will be redirected to the [MandrillApp Dashboard](https://mandrillapp.com/).
 
     ![Mailchimp API Selection](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/mailchimp-create-api-key.png)
 
-3. In the MandrillApp dashboard, click **Add API Key** to generate your key.
+3. In the MandrillApp dashboard, click **+ Add API Key** to generate your key.
 
     ![Mandrill API Key](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-mailchimp.transactional/refs/heads/main/docs/setup/resources/mailchimp-create-mandril-key.png)
 
@@ -54,9 +54,9 @@ To use the `Mailchimp Transactional` connector in your Ballerina application, up
 Import the `mailchimp.transactional` module.
 
 ```ballerina
-import ballerinax/mailchimp.'transactional;
+import ballerinax/mailchimp.'transactional as mailchimp;
 ```
-### Step 2: Configure the API Key
+### Step 2: Configure the API key
 
 1. Create a `Config.toml` file and add your Mandrill API key obtained from the setup process:
 
@@ -113,5 +113,5 @@ bal run
 
 The `MailChimp Transactional Emails` connector provides practical examples illustrating usage in various scenarios. Explore these [examples](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/), covering the following use cases:
 
-1. [Transactional Template Flow](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/transactional-template-flow): Shows how to create, publish, render, list, and delete templates.
-2. [Webhook Lifecyle](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/webhook-lifecycle): Demonstrates creating, retrieving, updating, and deleting webhooks.
+1. [**Transactional Template Flow**](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/transactional-template-flow): Shows how to create, publish, render, list, and delete templates.
+2. [**Webhook Lifecyle**](https://github.com/ballerina-platform/module-ballerinax-mailchimp.transactional/tree/main/examples/webhook-lifecycle): Demonstrates creating, retrieving, updating, and deleting webhooks.
