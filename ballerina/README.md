@@ -2,7 +2,14 @@
 
 [Mailchimp Transactional Email](https://mailchimp.com/developer/transactional/) is a reliable and scalable email delivery service provided by Intuit Mailchimp, designed for sending data-driven transactional emails such as password resets, order confirmations, and notifications.
 
-The `ballerinax/mailchimp.transactional` package provides APIs to connect and interact with the [Mailchimp Transactional API](https://mailchimp.com/developer/transactional/api/), enabling seamless integration with applications to manage transactional email sending, templates, messages, and more.
+The Mailchimp Transactional Email connector provides APIs to connect and interact with the [Mailchimp Transactional API](https://mailchimp.com/developer/transactional/api/), enabling seamless integration with applications to manage transactional email sending, templates, messages, and more.
+
+### Key Features
+
+- Reliable and scalable email delivery service
+- Send data-driven transactional emails efficiently
+- Comprehensive template and message management
+- Integration with Mailchimp Transactional API
 
 ## Setup guide
 
