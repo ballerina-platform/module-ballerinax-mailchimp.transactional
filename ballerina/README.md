@@ -63,6 +63,8 @@ Import the `mailchimp.transactional` module.
 ```ballerina
 import ballerinax/mailchimp.'transactional as mailchimp;
 ```
+> **Note**: `transactional` is a reserved word, so the module name must be escaped with a single quote (`mailchimp.'transactional`). Always import this package with an alias (as shown with `as mailchimp`) and use that alias to refer to it in your code.
+
 ### Step 2: Configure the API key
 
 1. Create a `Config.toml` file and add your Mandrill API key obtained from the setup process:
